@@ -1,0 +1,189 @@
+SWAG LABS
+
+*LOGIN- Caso feliz *
+
+1-Usuario ingresa a https://www.saucedemo.com/
+2-Hace clic en el campo username
+3-Validar que el campo debe estar habilitado para que el usuario escriba caracteres(numericos y de string)
+4-Validar que el campo solo acepta 8 caracteres
+5-Hacer clic en el campo Password
+6-Validar que el campo este habilitado para que el usuario escriba caracteres (numericos y de string)
+7-Validar que al escribir los caracteres no sean visibles en la pantalla
+8-Hacer clic en Login 
+
+-Resultado esperado:
+-EL usuario pueda ingresar y realizar el login 
+
+
+
+*LOGIN- Caso feliz con lista de usernames y password*
+
+1-Usuario ingresa a https://www.saucedemo.com/
+2-Hace clic en el campo username
+3-Validar que el campo debe estar habilitado para que el usuario escriba caracteres(numericos y de string)
+4-Elige como username cualquiera de los usuarios aceptados:
+standard_user
+locked_out_user
+problem_user
+performance_glitch_user
+error_user
+visual_user
+
+5-Validar que el campo solo acepta una cierta cantidad de caracteres 
+6-Hacer clic en el campo Password
+7-Validar que el campo este habilitado para que el usuario escriba caracteres (numericos y de string)
+8-Colocar el password que aparece en la pantalla :
+secret_sauce
+9-Validar que al escribir los caracteres no sean visibles en la pantalla
+10-Hacer clic en Login 
+
+-Resultado esperado:
+-EL usuario pueda ingresar y realizar el login 
+
+
+
+*LOGIN- Algun input vacio (Username)*
+
+
+1-Usuario ingresa a https://www.saucedemo.com/
+2-Hace clic en el campo password 
+3-Validar que el campo este habilitado para que el usuario escriba caracteres (numericos y de string)
+4-Validar que al escribir los caracteres no sean visibles en la pantalla
+5-Hacer clic en login 
+
+
+-Resultado esperado:
+ -Aparecera un mensaje indicando que falta un input por completar para que el usuario pueda hacer login :
+" Epic sadface: Password is required"
+
+
+
+
+*LOGIN- Algun input vacio (Password)*
+
+
+1-Usuario ingresa a https://www.saucedemo.com/
+2-Hace clic en el campo username  
+3-Validar que el campo este habilitado para que el usuario escriba caracteres (numericos y de string)
+5-Hacer clic en login 
+
+
+-Resultado esperado:
+ -Aparecera un mensaje indicando que falta un input por completar para que el usuario pueda hacer login :
+" Epic sadface: username is required"
+
+
+*Validacion - Titulo*
+
+1- Ingresar a https://www.saucedemo.com/
+2-Validar que el titulo del inicio tenga este titulo Swag Labs
+
+-Resultado esperado:
+ -Se valida que el titulo de la pagina diga Swag Labs
+
+------------------------------------------------------------------------------------------------------
+
+Seccion Productos 
+
+
+*Productos - Validar titulos*
+
+1-Usuario al realizar login deben de visualizar Swag Labs
+
+-Resultado esperado:
+ -Se valida que el titulo de la pagina diga Swag Labs
+
+
+
+*Productos - Validar iconos del menu*
+
+1-Usario al ingresar debe visualizar en el menu superior el bar menu y el carrito de compras 
+
+-Resultado esperado:
+ -Se valida que la seccion de prodcutos tenga el bar menu y el icono de carritos
+
+
+
+*Productos - Productos -items *
+
+1-Usuario al ingresar debe visualizar de manera centrada los productos divididos en dos columnas 
+2-Validar que cada producto tenga un nombre , description, fotografia, precio y boton que indica agregar al carrito
+3-Uusario hace clic en agregar al carrito en un producto 
+
+-Resultado esperado:
+ -Usuario pueda agregar un producto al carrito, automaticamente el carrito agrega el producto y se visualiza la cantidad.
+
+
+
+*Productos - Productos -items-REMOVER*
+
+1-Usuario al ingresar debe visualizar de manera centrada los productos divididos en dos columnas 
+2-Validar que cada producto tenga un nombre , description, fotografia, precio y boton que indica agregar al carrito
+3-Uusario hace clic en agregar al carrito en un producto 
+4-Se visualiza que se agrego al carrito
+5-Usuario hace clic en remove 
+
+
+-Resultado esperado:
+ -Usuario pueda eliminar un producto, se visualiza como el item es eliminado del carrito.
+
+*Productos- Desplegable
+
+1-Usuario al ingresar tiene la opcion de ordenar el listado de productos 
+2-Tiene 4 opciones :
+
+Name a to z 
+name z to a
+Price low to high
+Price high to low
+
+3-Elegir cualquiera del desplegable 
+
+-Resultado esperado:
+ -Usuario puede organizar el listado a su conveniencia dependiendo de lo que eligio :
+
+Name a to z - Se organiza por abecedario de la a a la z
+name z to a - Se organiza por abecedario de la z a la a
+Price low to high Se organiza del precio mas bajo al mas alto
+Price high to low se organiza del precio mas alto al mas bajo 
+
+
+
+*Footer*
+
+1-Usuario al ingresar y hacer scroll hasta el final visualiza el footer
+2-Del lado izquierdo esta el icono de twitter y redirige a : https://twitter.com/saucelabs
+3-del lado izquierdo en el medio de los iconos se encuentra el Facebook : https://www.facebook.com/saucelabs
+4-CDe ultimo se encuentra el icono de linkedin : https://www.linkedin.com/company/sauce-labs/
+5-Validar el texto que indique :  2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+
+-Resultado esperado :
+ - Este cada icono en el footer y texto , rediriga en la url correspondiente si es un icono.
+
+
+**Bar menu **
+
+All items
+
+1-Usuario al ingresar y hace clic en el menu bar 
+2-Visualiza el item ALL items
+3-redirige a https://www.saucedemo.com/inventory.html
+
+About 
+
+1-Usuario al ingresar y hace clic en el menu bar 
+2-Visualiza el item ABOUT 
+3-redirige a https://saucelabs.com/
+
+Logout 
+
+1-Usuario al ingresar y hace clic en el menu bar 
+2-Visualiza el item Logout 
+3-redirige a https://www.saucedemo.com/ y se cierra la sesion 
+
+
+Reset app state  
+
+1-Usuario al ingresar y hace clic en el menu bar 
+2-Visualiza el item Reset app state 
+3-redirige *aun no hay url*
